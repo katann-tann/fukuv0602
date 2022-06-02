@@ -17,5 +17,29 @@ namespace fukuv0602
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Top = button1.Top + - 1;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Left = button2.Left + -1;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label1.Left = button3.Left + 1;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            label1.Top = button4.Top + 1;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("岩立");
+        }
     }
 }
